@@ -1,0 +1,1 @@
+This folder is for build files to include .bin and .img for use with VirtualBox or a live floppy boot.
