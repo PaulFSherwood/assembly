@@ -1,0 +1,18 @@
+# Assembly Language .gitignore
+
+# Ignore object files and executables
+*.o
+*.out
+*.bin
+*.elf
+$(BUILD_DIR)/*.img
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore build directory contents except for main_floppy.img
+$(BUILD_DIR)/*
+!$(BUILD_DIR)/main_floppy.img
