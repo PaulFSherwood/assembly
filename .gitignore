@@ -5,7 +5,7 @@
 *.out
 *.bin
 *.elf
-$(BUILD_DIR)/*.img
+build/*.img
 
 # Ignore editor-specific files
 .vscode/
@@ -14,5 +14,5 @@ $(BUILD_DIR)/*.img
 *~
 
 # Ignore build directory contents except for main_floppy.img
-$(BUILD_DIR)/*
-!$(BUILD_DIR)/main_floppy.img
+build/*
+build/main_floppy.img
